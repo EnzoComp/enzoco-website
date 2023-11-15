@@ -7,6 +7,8 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 // variant
 import { fadeIn } from "../variants";
+// images
+import Image from "../assets/about.png";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -22,8 +24,10 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top"
-          ></motion.div>
+            className="hidden lg:flex flex-1 h-[640px] mix-blend-lighten bg-top"
+          >
+            <img src={Image} alt="Img" />
+          </motion.div>
           {/* text */}
           <motion.div
             variants={fadeIn("right", 0.3)}
