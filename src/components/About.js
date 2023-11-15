@@ -7,7 +7,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 // variant
 import { fadeIn } from "../variants";
-// images
+// image
 import Image from "../assets/about.png";
 
 const About = () => {
