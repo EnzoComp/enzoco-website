@@ -35,7 +35,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[32px] lg:text-[55px] font-secondary font-semibold leading-[1]"
+              className="mb-6 text-[28px] lg:text-[55px] font-secondary font-semibold leading-[1]"
             >
               <span className="text-white mr-2">Je suis un</span>
               <TypeAnimation
@@ -60,7 +60,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Bienvenue sur mon site ! Je suis un développeur web passionner par
+              Bienvenue sur mon site ! Je suis un développeur web passionné par
               la création de solutions numériques innovantes. Explorez mon
               portfolio pour découvrir mes projets récents et mes compétences.
             </motion.p>

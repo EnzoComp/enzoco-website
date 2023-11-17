@@ -7,6 +7,11 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+// google analytics
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-85C2DL1HTG";
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   return (

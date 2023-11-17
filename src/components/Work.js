@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 // img
-import Img1 from "../assets/portfolio-img1.png";
-import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img1 from "../assets/portfolio1.png";
+import Img2 from "../assets/portfolio2.png";
+import Img3 from "../assets/portfolio3.png";
 
 const Work = () => {
   return (
@@ -46,11 +46,17 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">
+                  <a href="https://declarationprealable.fr/index.php">
+                    declarationprealable.fr
+                  </a>
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">
+                  Php, Bootstrap, Html, Css
+                </span>
               </div>
             </div>
           </motion.div>
@@ -73,11 +79,15 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">
+                  <a href="https://planstravaux.com/">planstravaux.com</a>
+                </span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white">
+                  Php, Bootstrap, Html, Css
+                </span>
               </div>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -91,11 +101,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">UI/UX Design</span>
+                <span className="text-gradient">Comming Soon</span>
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3x1 text-white">Project Title</span>
+                <span className="text-3x1 text-white"></span>
               </div>
             </div>
           </motion.div>

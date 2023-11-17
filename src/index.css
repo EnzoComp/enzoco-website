@@ -34,6 +34,19 @@
   border-radius: 100%;
 }
 
+.checkbox-wrapper input[type="checkbox"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 1em;
+  height: 1em;
+  border-radius: 0.15em;
+  margin-right: 0.5em;
+  border: 0.15em solid #007a7e;
+  cursor: pointer;
+}
+
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
