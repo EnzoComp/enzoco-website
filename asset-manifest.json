@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/enzoco-website/static/css/main.b87ed37f.css",
-    "main.js": "/enzoco-website/static/js/main.2b4e92e9.js",
-    "static/media/portfolio-img2.png": "/enzoco-website/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
-    "static/media/portfolio-img3.png": "/enzoco-website/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "main.css": "/enzoco-website/static/css/main.499a293b.css",
+    "main.js": "/enzoco-website/static/js/main.9fbfdb3c.js",
     "static/media/avatar.png": "/enzoco-website/static/media/avatar.7bcc5b1cf558adf776cc.png",
     "static/media/about.png": "/enzoco-website/static/media/about.d1497ab33d8258cc3a3a.png",
-    "static/media/portfolio-img1.png": "/enzoco-website/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/portfolio1.png": "/enzoco-website/static/media/portfolio1.25e13a8440130c2f55d0.png",
+    "static/media/portfolio2.png": "/enzoco-website/static/media/portfolio2.192192d53c4ec0575d08.png",
+    "static/media/portfolio3.png": "/enzoco-website/static/media/portfolio3.29021e8dc75e113deead.png",
     "static/media/services.png": "/enzoco-website/static/media/services.f250670b73886c5daf1c.png",
     "static/media/Mentions Légales.pdf": "/enzoco-website/static/media/Mentions Légales.6b750886790d23fc60cf.pdf",
     "static/media/bg-site.svg": "/enzoco-website/static/media/bg-site.2ec7033f93c053a3977d.svg",
     "index.html": "/enzoco-website/index.html"
   },
   "entrypoints": [
-    "static/css/main.b87ed37f.css",
-    "static/js/main.2b4e92e9.js"
+    "static/css/main.499a293b.css",
+    "static/js/main.9fbfdb3c.js"
   ]
 }
