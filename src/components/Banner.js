@@ -2,7 +2,8 @@ import React from "react";
 // images
 import Image from "../assets/avatar.png";
 // icons
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 // type animation
 import { TypeAnimation } from "react-type-animation";
 // motion
@@ -85,11 +86,11 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://github.com/EnzoComp">
-                <FaGithub />
-              </a>
               <a href="https://www.linkedin.com/in/enzo-guimard-986446195/">
                 <FaLinkedin />
+              </a>
+              <a href="https://twitter.com/EnzoCoDev">
+                <FaXTwitter />
               </a>
             </motion.div>
           </div>

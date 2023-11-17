@@ -8,9 +8,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           {/* logo */}
-          <a href="home">
-            <img src={Logo} alt="" width={230} height={230} />
-          </a>
+          <img src={Logo} alt="" width={230} height={230} />
           {/* button */}
           <a href="#contact">
             <button className="btn btn-sm">Travailler avec moi</button>{" "}
